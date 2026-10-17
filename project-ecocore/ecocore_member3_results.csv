@@ -1,0 +1,4 @@
+action,available,estimated_risk,projected_cpu_pct,projected_memory_pct,projected_load_per_core,intervention_penalty,decision_score,risk_method,assumptions,restriction
+No action,True,1.0,100,97.0,1.667,0.0,1.0,member_2_model,Current workload continues; no intervention.,
+Defer background workload,True,1.0,88.1,87.05,1.525,0.04,1.04,member_2_model,Assumes only non-critical background work is deferred.,
+Redistribute workload,False,0.97,95.8,95.4,1.57,0.06,,member_2_model,Requires a compatible target with spare capacity.,Unavailable: requires confirmed compatible destination and spare capacity.
