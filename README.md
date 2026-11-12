@@ -52,3 +52,22 @@ Synthetic replay scenarios are explicitly labeled and are not presented as live 
 > From monitoring resource pressure to understanding, predicting, and safely responding to it.
 
 **EcoCore — Observe. Predict. Explain. Simulate. Decide.**
+
+
+## 🏗️ EcoCore Architecture
+
+EcoCore combines system telemetry, data preparation, 
+predictive analytics, explainable AI, and what-if simulation 
+to support smarter, energy-aware infrastructure decisions 
+on IBM LinuxONE.
+
+<p align="center">
+  <img 
+    src="assets/ecocore-architecture.png.png" 
+    width="100%"
+  />
+</p>
+
+*EcoCore: Telemetry → Prediction → Explanation → 
+What-if Evaluation → Human Decision*
+
